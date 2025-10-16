@@ -30,21 +30,58 @@ export default function Home() {
       </div>
     </section>
 
-      {/* Projects Section */}
-      <section className="max-w-4xl mx-auto my-12 px-4">
-        <h2 className="text-2xl font-semibold mb-4">Projects</h2>
-        <ul className="list-disc list-inside space-y-2">
-          <li>
-            <strong>P&M Prints:</strong> Co-founded a 3D printing company developing modular wallets.
-          </li>
-          <li>
-            <strong>Rig Hut Internship:</strong> Built AI and electronics solutions for truck parking software.
-          </li>
-          <li>
-            <strong>Other Internships:</strong> Completed biotech startup and social media company internships.
-          </li>
-        </ul>
-      </section>
+    {/* Projects Section */}
+    <section className="max-w-5xl mx-auto my-16 px-4">
+      <h2 className="text-3xl font-bold mb-10 text-center">Projects</h2>
+
+      {/* Project 1: The Stack */}
+      <div className="mb-16">
+        <h3 className="text-2xl font-semibold mb-6">The Stack</h3>
+
+        {/* Image 1 + Text */}
+        <div className="flex flex-col md:flex-row items-center mb-8">
+          <img
+            src="images/stack-wallet-what.jpg"
+            alt="The Stack - concept"
+            className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+          />
+          <p className="text-lg">
+            <strong>What:</strong> The Stack is the world's first modular slim wallet with customizable
+            back plates designed and 3D printed by me.
+          </p>
+        </div>
+
+        {/* Image 2 + Text */}
+        <div className="flex flex-col md:flex-row items-center mb-8">
+          <img
+            src="images/stack-wallet-how.jpg"
+            alt="The Stack - design process"
+            className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+          />
+          <p className="text-lg">
+            <strong>How:</strong> Using Fusion 360 I implemented an innovative Lego-like
+            design to the backplates allowing interchangeability. On top of that I calculated
+            the proper torque and size the lever needed to be in order to eject the cards optimally.
+            Finally, by imbedding an NFC chip into the base we coded a program that allows for
+            geolocation tracking. 
+          </p>
+        </div>
+
+        {/* Image 3 + Text */}
+        <div className="flex flex-col md:flex-row items-center">
+          <img
+            src="images/stack-wallet-results.jpg"
+            alt="The Stack - results"
+            className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+          />
+          <p className="text-lg">
+            <strong>Results:</strong> We're now patenting the design with the help of our school
+            and gained funding from our schools pitch competition. Now were focused on growing
+            the products presence online through our online store.
+          </p>
+        </div>
+      </div>
+    </section>
 
       {/* Skills Section */}
       <section className="max-w-4xl mx-auto my-12 px-4">
