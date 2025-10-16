@@ -47,11 +47,12 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-center py-6 mt-12">
-        <p>© 2025 Michael Rodriguez</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" className="underline hover:text-blue-400">linkedin.com/in/michael-pmprints</a></p>
         <p>Email: <a href="mailto:youremail@example.com" className="underline hover:text-blue-400">mjrodriguez26@belenwolverines.org</a></p>
         <p>Phone: <a href="tel:+15551234567" className="underline hover:text-blue-400">+1 (305) 988-1987</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" className="underline hover:text-blue-400">linkedin.com/in/michael-pmprints</a></p>
+        <p>© 2025 Michael Rodriguez</p>
       </footer>
     </div>
   );
 }
+
