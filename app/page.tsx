@@ -9,16 +9,26 @@ export default function Home() {
         <p className="mt-2 text-lg">Electrical Engineering & Entrepreneurship Portfolio</p>
       </header>
 
-      {/* About Section */}
-      <section className="max-w-4xl mx-auto my-12 px-4">
+    {/* About Section */}
+    <section className="max-w-4xl mx-auto my-12 px-4 flex flex-col md:flex-row items-center md:items-start gap-6">
+      {/* Image */}
+      <img 
+        src="/me.jpg" 
+        alt="Michael Rodriguez" 
+        className="w-48 h-48 rounded-full object-cover"
+      />
+
+      {/* About text */}
+      <div>
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p>
           I am a high school student passionate about Electrical Engineering, 
-          Biomedical Engineering, and entrepreneurship. I co-founded a 3D printing startup, 
+          patent law, and entrepreneurship. I co-founded a 3D printing startup, 
           have completed multiple internships, and love creating projects that combine 
           technology and innovation.
         </p>
-      </section>
+      </div>
+    </section>
 
       {/* Projects Section */}
       <section className="max-w-4xl mx-auto my-12 px-4">
