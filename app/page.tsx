@@ -36,7 +36,7 @@ export default function Home() {
 
       {/* Project 1: The Stack */}
       <div className="mb-16">
-        <h3 className="text-2xl font-bold mb-6">The Stack</h3>
+        <h3 className="text-2xl font-bold mb-6">P&M Prints - The Stack</h3>
 
         {/* Image 1 + Text */}
         <div className="flex flex-col md:flex-row items-center mb-8">
@@ -80,6 +80,55 @@ export default function Home() {
             the products presence online through our online store.
           </p>
         </div>
+
+        {/* Project 2: Rig Hut – Smart Gate Module */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold mb-6">Rig Hut - Smart Gate Module</h3>
+
+          {/* Image 1 + Text */}
+          <div className="flex flex-col md:flex-row items-center mb-8">
+            <img
+              src="images/rig-hut-what.jpg"
+              alt="Rig Hut module concept"
+              className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+            />
+            <p className="text-lg">
+            <strong>What:</strong> During my internship at Rig Hut, an AI truck-parking
+            software startup, I helped design and assemble hardware for a new
+            smart-gate module that automates truck-lot entry by connecting to 
+            the companies software.
+          </p>
+        </div>
+
+        {/* Image 2 + Text */}
+        <div className="flex flex-col md:flex-row items-center mb-8">
+          <img
+            src="images/rig-hut-how.jpg"
+            alt="Rig Hut module development"
+            className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+          />
+          <p className="text-lg">
+            <strong>How:</strong> I used Fusion 360 for creating the 3D-modeling enclosures, learned
+            soldering and circuit assembly, and collaborated with engineers to integrate
+            electronics with Rig Hut's software.
+          </p>
+        </div>
+
+        {/* Image 3 + Text */}
+        <div className="flex flex-col md:flex-row items-center">
+          <img
+            src="images/rig-hut-results.jpg"
+            alt="Rig Hut gate module results"
+            className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+          />
+          <p className="text-lg">
+            <strong>Results:</strong> The prototype was delivered to clients and tested
+            successfully. This experience deepened my interest in electronics and
+            influenced my decision to pursue Electrical Engineering.
+          </p>
+        </div>
+      </div>
+
       </div>
     </section>
 
