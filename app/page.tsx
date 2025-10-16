@@ -83,7 +83,7 @@ export default function Home() {
 
         {/* Project 2: Rig Hut – Smart Gate Module */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold mb-6">Rig Hut - Smart Gate Module</h3>
+          <h3 className="text-2xl font-bold mb-6 mt-16">Rig Hut - Smart Gate Module</h3>
 
           {/* Image 1 + Text */}
           <div className="flex flex-col md:flex-row items-center mb-8">
