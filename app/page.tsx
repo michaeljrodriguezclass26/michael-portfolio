@@ -36,9 +36,7 @@ export default function Home() {
 
       {/* Project 1: The Stack */}
       <div className="mb-16">
-        <h3 className="text-2xl font-semibold mb-6">
-          P&M Prints - <strong>The Stack</strong>
-        </h3>
+        <h3 className="text-2xl font-bold mb-6">The Stack</h3>
 
         {/* Image 1 + Text */}
         <div className="flex flex-col md:flex-row items-center mb-8">
