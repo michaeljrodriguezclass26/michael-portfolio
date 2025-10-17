@@ -43,7 +43,7 @@ export default function Home() {
           <img
             src="images/stack-wallet-what.jpg"
             alt="The Stack - concept"
-            className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+            className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6"
           />
           <p className="text-lg">
             <strong>What:</strong> The Stack is the world's first modular slim wallet with customizable
