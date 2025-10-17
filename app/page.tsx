@@ -56,7 +56,7 @@ export default function Home() {
           <img
             src="images/stack-wallet-how.jpg"
             alt="The Stack - design process"
-            className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6"
+            className="w-full max-w-[300px] aspect-square object-cover object-center rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6"
           />
           <p className="text-lg">
             <strong>How:</strong> Using Fusion 360 I implemented an innovative Lego-like
