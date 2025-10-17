@@ -56,7 +56,7 @@ export default function Home() {
           <img
             src="images/stack-wallet-how.jpg"
             alt="The Stack - design process"
-            className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+            className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6"
           />
           <p className="text-lg">
             <strong>How:</strong> Using Fusion 360 I implemented an innovative Lego-like
@@ -72,7 +72,7 @@ export default function Home() {
           <img
             src="images/stack-wallet-results.jpg"
             alt="The Stack - results"
-            className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+            className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6"
           />
           <p className="text-lg">
             <strong>Results:</strong> We're now patenting the design with the help of our school
@@ -90,7 +90,7 @@ export default function Home() {
             <img
               src="images/rig-hut-what.jpg"
               alt="Rig Hut module concept"
-              className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+              className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6"
             />
             <p className="text-lg">
             <strong>What:</strong> During my internship at Rig Hut, an AI truck-parking
@@ -105,7 +105,7 @@ export default function Home() {
           <img
             src="images/rig-hut-how.jpg"
             alt="Rig Hut module development"
-            className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+            className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6"
           />
           <p className="text-lg">
             <strong>How:</strong> I used Fusion 360 for creating the 3D-modeling enclosures, learned
@@ -119,7 +119,7 @@ export default function Home() {
           <img
             src="images/rig-hut-results.jpg"
             alt="Rig Hut gate module results"
-            className="w-[500px] h-[500px] object-cover rounded-2xl shadow-md mb-4 md:mb-0 md:mr-6"
+            className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6"
           />
           <p className="text-lg">
             <strong>Results:</strong> The prototype was delivered to clients and tested
@@ -133,21 +133,21 @@ export default function Home() {
           <div className="space-y-8">
             {/* Image 1 */}
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/biotech1.jpg" alt="Biotech - Design" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/biotech1.jpg" alt="Biotech - Design" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>What:</strong> Designed a medical device concept to improve airflow through the Eustachian tube — potentially alleviating chronic ear pressure.
               </p>
             </div>
             {/* Image 2 */}
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/biotech2.jpg" alt="Biotech - Development" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/biotech2.jpg" alt="Biotech - Development" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>How:</strong> Created CAD models in Fusion 360 integrating fluid dynamics principles, collaborated with mentors, and researched biomedical airflow systems.
               </p>
             </div>
             {/* Image 3 */}
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/biotech3.jpg" alt="Biotech - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/biotech3.jpg" alt="Biotech - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>Results:</strong> Developed a functional prototype concept and investor-ready pitch, combining biomedical and engineering design thinking.
               </p>
@@ -160,13 +160,13 @@ export default function Home() {
           <h3 className="text-2xl font-bold mb-6">Skeeball Mini Game</h3>
           <div className="space-y-8">
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/skeeball1.jpg" alt="Skeeball - What and How" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/skeeball1.jpg" alt="Skeeball - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>What & How:</strong> Built a tabletop skeeball arcade game using 3D printed ramps and scoring rings. Learned about motion control and precision printing through repeated testing.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/skeeball2.jpg" alt="Skeeball - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/skeeball2.jpg" alt="Skeeball - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>Results:</strong> Demonstrated motion accuracy and aesthetics in design, blending fun gameplay with mechanical design principles.
               </p>
@@ -179,14 +179,14 @@ export default function Home() {
           <h3 className="text-2xl font-bold mb-6">3D Printed Business Cards</h3>
           <div className="space-y-8">
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/businesscard1.jpg" alt="3D Printed Business Cards - What and How" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/businesscard1.jpg" alt="3D Printed Business Cards - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>What & How:</strong> Designed and 3D printed custom business cards for <strong>P&M Prints</strong>, experimenting with dual-color PLA and embossed text. 
                 Modeled designs in <strong>Fusion 360</strong> and refined print settings for detail and durability.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/businesscard2.jpg" alt="3D Printed Business Cards - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/businesscard2.jpg" alt="3D Printed Business Cards - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>Results:</strong> Produced fully functional and visually striking cards that serve as both a professional introduction and a physical showcase of 3D printing craftsmanship.
               </p>
@@ -199,13 +199,13 @@ export default function Home() {
           <h3 className="text-2xl font-bold mb-6">Light Switch Cover with Attachments</h3>
           <div className="space-y-8">
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/lightswitch1.jpg" alt="Light Switch - What and How" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/lightswitch1.jpg" alt="Light Switch - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>What & How:</strong> Designed a 3D printed switch plate with modular magnetic attachments for key holders, pens, and accessories — improving everyday utility.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/lightswitch2.jpg" alt="Light Switch - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/lightswitch2.jpg" alt="Light Switch - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>Results:</strong> Learned about ergonomic design, part tolerances, and how to align function with aesthetic appeal.
               </p>
@@ -218,13 +218,13 @@ export default function Home() {
           <h3 className="text-2xl font-bold mb-6">Airplane Slingshot</h3>
           <div className="space-y-8">
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/airplane1.jpg" alt="Airplane - What and How" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/airplane1.jpg" alt="Airplane - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>What & How:</strong> Created a handheld slingshot device that launches foam airplanes. Experimented with tension mechanics, range optimization, and safe design.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/airplane2.jpg" alt="Airplane - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/airplane2.jpg" alt="Airplane - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>Results:</strong> Improved knowledge of projectile motion, tension systems, and mechanical prototyping.
               </p>
@@ -237,13 +237,13 @@ export default function Home() {
           <h3 className="text-2xl font-bold mb-6">Gear-Shaped Phone Holder</h3>
           <div className="space-y-8">
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/gear1.jpg" alt="Gear Holder - What and How" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/gear1.jpg" alt="Gear Holder - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>What & How:</strong> Designed a functional and decorative phone holder in the shape of interlocking gears to explore aesthetic 3D design and mechanical alignment.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
-              <img src="/gear2.jpg" alt="Gear Holder - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <img src="/gear2.jpg" alt="Gear Holder - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>Results:</strong> Learned how to combine engineering with visual appeal, balancing structure, symmetry, and usability.
               </p>
