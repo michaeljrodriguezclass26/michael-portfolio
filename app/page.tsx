@@ -127,19 +127,150 @@ export default function Home() {
             influenced my decision to pursue Electrical Engineering.
           </p>
         </div>
+        {/* BIOTECH STARTUP */}
+        <div className="mb-20 mt-24">
+          <h3 className="text-2xl font-bold mb-6">BioTech Startup - Eustachian Tube Project</h3>
+          <div className="space-y-8">
+            {/* Image 1 */}
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/biotech1.jpg" alt="Biotech - Design" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>What:</strong> Designed a medical device concept to improve airflow through the Eustachian tube — potentially alleviating chronic ear pressure.
+              </p>
+            </div>
+            {/* Image 2 */}
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/biotech2.jpg" alt="Biotech - Development" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>How:</strong> Created CAD models in Fusion 360 integrating fluid dynamics principles, collaborated with mentors, and researched biomedical airflow systems.
+              </p>
+            </div>
+            {/* Image 3 */}
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/biotech3.jpg" alt="Biotech - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>Results:</strong> Developed a functional prototype concept and investor-ready pitch, combining biomedical and engineering design thinking.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* SKEEBALL MINI GAME */}
+        <div className="mb-20 mt-24">
+          <h3 className="text-2xl font-bold mb-6">Skeeball Mini Game</h3>
+          <div className="space-y-8">
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/skeeball1.jpg" alt="Skeeball - What and How" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>What & How:</strong> Built a tabletop skeeball arcade game using 3D printed ramps and scoring rings. Learned about motion control and precision printing through repeated testing.
+              </p>
+            </div>
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/skeeball2.jpg" alt="Skeeball - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>Results:</strong> Demonstrated motion accuracy and aesthetics in design, blending fun gameplay with mechanical design principles.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* 3D PRINTED BUSINESS CARDS */}
+        <div className="mb-20 mt-24">
+          <h3 className="text-2xl font-bold mb-6">3D Printed Business Cards</h3>
+          <div className="space-y-8">
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/businesscard1.jpg" alt="3D Printed Business Cards - What and How" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>What & How:</strong> Designed and 3D printed custom business cards for <strong>P&M Prints</strong>, experimenting with dual-color PLA and embossed text. 
+                Modeled designs in <strong>Fusion 360</strong> and refined print settings for detail and durability.
+              </p>
+            </div>
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/businesscard2.jpg" alt="3D Printed Business Cards - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>Results:</strong> Produced fully functional and visually striking cards that serve as both a professional introduction and a physical showcase of 3D printing craftsmanship.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* LIGHT SWITCH COVER */}
+        <div className="mb-20 mt-24">
+          <h3 className="text-2xl font-bold mb-6">Light Switch Cover with Attachments</h3>
+          <div className="space-y-8">
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/lightswitch1.jpg" alt="Light Switch - What and How" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>What & How:</strong> Designed a 3D printed switch plate with modular magnetic attachments for key holders, pens, and accessories — improving everyday utility.
+              </p>
+            </div>
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/lightswitch2.jpg" alt="Light Switch - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>Results:</strong> Learned about ergonomic design, part tolerances, and how to align function with aesthetic appeal.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* AIRPLANE SLINGSHOT */}
+        <div className="mb-20 mt-24">
+          <h3 className="text-2xl font-bold mb-6">Airplane Slingshot</h3>
+          <div className="space-y-8">
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/airplane1.jpg" alt="Airplane - What and How" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>What & How:</strong> Created a handheld slingshot device that launches foam airplanes. Experimented with tension mechanics, range optimization, and safe design.
+              </p>
+            </div>
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/airplane2.jpg" alt="Airplane - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>Results:</strong> Improved knowledge of projectile motion, tension systems, and mechanical prototyping.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* GEAR PHONE HOLDER */}
+        <div className="mb-20 mt-24">
+          <h3 className="text-2xl font-bold mb-6">Gear-Shaped Phone Holder</h3>
+          <div className="space-y-8">
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/gear1.jpg" alt="Gear Holder - What and How" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>What & How:</strong> Designed a functional and decorative phone holder in the shape of interlocking gears to explore aesthetic 3D design and mechanical alignment.
+              </p>
+            </div>
+            <div className="flex flex-col md:flex-row items-center">
+              <img src="/gear2.jpg" alt="Gear Holder - Results" className="w-[500px] h-[500px] rounded-2xl shadow-lg mb-4 md:mb-0 md:mr-8" />
+              <p className="text-lg leading-relaxed">
+                <strong>Results:</strong> Learned how to combine engineering with visual appeal, balancing structure, symmetry, and usability.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* PROJECTS IN PROGRESS */}
+        <div className="mt-32">
+          <h3 className="text-3xl font-extrabold mb-8 text-center">Projects In Progress</h3>
+          <div className="space-y-6 text-lg leading-relaxed text-gray-700">
+            <p>
+              <strong>First-Person VR Powered RC Car:</strong> A live FPV-controlled RC car with a VR headset integration for immersive driving and camera-based depth mapping.
+            </p>
+            <p>
+              <strong>AI Golf Caddy:</strong> A golf assistant that uses live GPS data and AI predictions to recommend clubs and strategies during play.
+            </p>
+            <p>
+              <strong>Trackable Golf Ball:</strong> Developing an ultra-low-cost, trackable golf ball using small embedded sensors and a smartphone app for location tracking.
+            </p>
+          </div>
+        </div>
+
       </div>
 
       </div>
     </section>
-
-      {/* Skills Section */}
-      <section className="max-w-4xl mx-auto my-12 px-4">
-        <h2 className="text-2xl font-semibold mb-4">Skills</h2>
-        <p>
-          Fluent in Spanish, 3D modeling with Fusion 360, 3D printing, CAD design, 
-          soldering, electronics, Canva, and video editing.
-        </p>
-      </section>
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-center py-6 mt-12">
