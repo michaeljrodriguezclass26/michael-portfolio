@@ -135,21 +135,21 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <img src="/biotech1.jpg" alt="Biotech - Design" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>What:</strong> Designed a medical device concept to improve airflow through the Eustachian tube — potentially alleviating chronic ear pressure.
+                <strong>What:</strong> Designed, 3D printed and casted an Eustacian Tube for a Biotech startup to use in a revolutionary nasal device.
               </p>
             </div>
             {/* Image 2 */}
             <div className="flex flex-col md:flex-row items-center">
               <img src="/biotech2.jpg" alt="Biotech - Development" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>How:</strong> Created CAD models in Fusion 360 integrating fluid dynamics principles, collaborated with mentors, and researched biomedical airflow systems.
+                <strong>How:</strong> Created CAD models in Fusion 360 for the single piece mold as the tube was too soft and small to 3D print. Then used the softest silicone as casting material ensuring it was safe for medical use.
               </p>
             </div>
             {/* Image 3 */}
             <div className="flex flex-col md:flex-row items-center">
               <img src="/biotech3.jpg" alt="Biotech - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>Results:</strong> Developed a functional prototype concept and investor-ready pitch, combining biomedical and engineering design thinking.
+                <strong>Results:</strong> Developed a functional prototype that was used in the device while pitching to investors, combining biomedical and engineering design thinking. Set up pay per tube contract with the Biotech startup.
               </p>
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <img src="/skeeball1.jpg" alt="Skeeball - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>What & How:</strong> Built a tabletop skeeball arcade game using 3D printed ramps and scoring rings. Learned about motion control and precision printing through repeated testing.
+                <strong>What & How:</strong> Built a self-returning tabletop skeeball mini game using 3D printed ramps and scoring rings for a challenge video on the P&M Prints YouTube channel. Learned about motion control and precision printing through repeated testing.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
@@ -181,14 +181,14 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <img src="/businesscard1.jpg" alt="3D Printed Business Cards - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>What & How:</strong> Designed and 3D printed custom business cards for <strong>P&M Prints</strong>, experimenting with dual-color PLA and embossed text. 
-                Modeled designs in <strong>Fusion 360</strong> and refined print settings for detail and durability.
+                <strong>What & How:</strong> Designed and 3D printed custom business cards for P&M Prints and other clients, experimenting with dual-color PLA and embossed text. 
+                Modeled designs in Fusion 360 and refined print settings for detail,thinness, smoothness and durability.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
               <img src="/businesscard2.jpg" alt="3D Printed Business Cards - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>Results:</strong> Produced fully functional and visually striking cards that serve as both a professional introduction and a physical showcase of 3D printing craftsmanship.
+                <strong>Results:</strong> Produced fully functional and visually striking cards that serve as both a professional introduction by using QR codes and a physical showcase of 3D printing craftsmanship.
               </p>
             </div>
           </div>
@@ -201,13 +201,13 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <img src="/lightswitch1.jpg" alt="Light Switch - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>What & How:</strong> Designed a 3D printed switch plate with modular magnetic attachments for key holders, pens, and accessories — improving everyday utility.
+                <strong>What & How:</strong> Designed a 3D printed light switch plate with attachments including key holders, a wallet shelf, and Apple Watch charger — improving everyday utility. Made for a challenge video on the P&M Prints YouTube channel where we tried to make it for under a dollar.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
               <img src="/lightswitch2.jpg" alt="Light Switch - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>Results:</strong> Learned about ergonomic design, part tolerances, and how to align function with aesthetic appeal.
+                <strong>Results:</strong> Learned about ergonomic design, part tolerances, reducing 3D printing costs by optimizing the design and how to align function with aesthetic appeal.
               </p>
             </div>
           </div>
@@ -220,13 +220,13 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <img src="/airplane1.jpg" alt="Airplane - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>What & How:</strong> Created a handheld slingshot device that launches foam airplanes. Experimented with tension mechanics, range optimization, and safe design.
+                <strong>What & How:</strong> Created a handheld slingshot device that launches paper airplanes. Experimented with tension mechanics, range optimization, and safe design as I turned it into a sellable toy.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
               <img src="/airplane2.jpg" alt="Airplane - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>Results:</strong> Improved knowledge of projectile motion, tension systems, and mechanical prototyping.
+                <strong>Results:</strong> Improved knowledge of projectile motion, tension systems, and mechanical prototyping. Became most popular product on website.
               </p>
             </div>
           </div>
@@ -239,13 +239,13 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <img src="/gear1.jpg" alt="Gear Holder - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>What & How:</strong> Designed a functional and decorative phone holder in the shape of interlocking gears to explore aesthetic 3D design and mechanical alignment.
+                <strong>What & How:</strong> Designed a functional, adjustable and decorative phone holder in the shape of interlocking gears to explore aesthetic 3D design and mechanical alignment. Made in under an hour as part of a challenge on a video for the P&M Prints YouTube channel.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
               <img src="/gear2.jpg" alt="Gear Holder - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>Results:</strong> Learned how to combine engineering with visual appeal, balancing structure, symmetry, and usability.
+                <strong>Results:</strong> Learned how to combine engineering with visual appeal, balancing structure, symmetry, and usability. Also practiced the skill of designing while under a time constraint.
               </p>
             </div>
           </div>
