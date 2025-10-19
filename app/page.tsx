@@ -124,7 +124,8 @@ export default function Home() {
           <p className="text-lg">
             <strong>Results:</strong> The prototype was delivered to clients and tested
             successfully. This experience deepened my interest in electronics and
-            influenced my decision to pursue Electrical Engineering.
+            influenced my decision to pursue Electrical Engineering. Was invited to come
+            back to create more modules on a pay per module contract and to begin developing an electronic gate remote.
           </p>
         </div>
         {/* BIOTECH STARTUP */}
@@ -142,7 +143,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <img src="/biotech2.jpg" alt="Biotech - Development" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>How:</strong> Created CAD models in Fusion 360 for the single piece mold as the tube was too soft and small to 3D print. Then used the softest silicone as casting material ensuring it was safe for medical use.
+                <strong>How:</strong> Created CAD models in Fusion 360 for the single piece mold as the tube was too soft and small to 3D print. Then I created the tube, ensuring to use the softest silicone that was safe for medical use.
               </p>
             </div>
             {/* Image 3 */}
@@ -162,13 +163,13 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <img src="/skeeball1.jpg" alt="Skeeball - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>What & How:</strong> Built a self-returning tabletop skeeball mini game using 3D printed ramps and scoring rings for a challenge video on the P&M Prints YouTube channel. Learned about motion control and precision printing through repeated testing.
+                <strong>What & How:</strong> Built a self-returning tabletop skeeball mini game on Fusion 360 using 3D printed ramps and scoring rings for a challenge video on the P&M Prints YouTube channel.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
               <img src="/skeeball2.jpg" alt="Skeeball - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>Results:</strong> Demonstrated motion accuracy and aesthetics in design, blending fun gameplay with mechanical design principles.
+                <strong>Results:</strong> Demonstrated motion accuracy and aesthetics in design, blending fun gameplay with mechanical design principles. Learned about motion control and precision printing through repeated testing.
               </p>
             </div>
           </div>
@@ -182,7 +183,7 @@ export default function Home() {
               <img src="/businesscard1.jpg" alt="3D Printed Business Cards - What and How" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
                 <strong>What & How:</strong> Designed and 3D printed custom business cards for P&M Prints and other clients, experimenting with dual-color PLA and embossed text. 
-                Modeled designs in Fusion 360 and refined print settings for detail,thinness, smoothness and durability.
+                Modeled designs in Fusion 360 and refined print settings for detail, thinness and durability.
               </p>
             </div>
             <div className="flex flex-col md:flex-row items-center">
@@ -207,7 +208,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center">
               <img src="/lightswitch2.jpg" alt="Light Switch - Results" className="w-full max-w-[300px] aspect-square object-cover rounded-lg shadow-lg mb-4 md:mb-0 md:mr-6" />
               <p className="text-lg leading-relaxed">
-                <strong>Results:</strong> Learned about ergonomic design, part tolerances, reducing 3D printing costs by optimizing the design and how to align function with aesthetic appeal.
+                <strong>Results:</strong> Learned about ergonomic design, part tolerances, reducing 3D printing costs by optimizing the design and how to align function with aesthetic appeal. In the end I reduced the cost to be $0.99.
               </p>
             </div>
           </div>
