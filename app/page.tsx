@@ -275,8 +275,8 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-center py-6 mt-12">
         <p><span className="font-bold">LinkedIn:</span> <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" className="underline hover:text-blue-400">linkedin.com/in/michael-pmprints</a></p>
-        <p>P&M Prints: <a href="https://linkpop.com/pmp26/index.html" target="_blank" className="underline hover:text-blue-400">linkpop.com/pmp26</a></p>
         <p><span className="font-bold">Email:</span> <a href="mailto:youremail@example.com" className="underline hover:text-blue-400">mjrodriguez26@belenwolverines.org</a></p>
+        <p><strong>P&M Prints:</strong> <a href="https://linkpop.com/pmp26/index.html" target="_blank" className="underline hover:text-blue-400">linkpop.com/pmp26</a></p>
         <p><span className="font-bold">Phone:</span> <a href="tel:+15551234567" className="underline hover:text-blue-400">+1 (305) 988-1987</a></p>
       </footer>
     </div>
